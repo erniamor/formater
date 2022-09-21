@@ -30,6 +30,8 @@ import { formatBytes } from '@erniamor/formater';
 formatBytes(1024000, 2); // return "1.02 MB"
 ```
 
+---
+
 ## API
 
 It's easy to use Formater APIs to format some special usecase.
@@ -47,7 +49,7 @@ decimals (number) : the number of decimals - default : 0
 
 (string) : the formated value
 
-**Exemple**
+**Example**
 
 ```javascript
 formatBytes(1024000, 2); // return "1.02 MB"
@@ -56,6 +58,16 @@ formatBytes(1024000, 2); // return "1.02 MB"
 **Notes**
 
 All this units are available : 'Byte', 'Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'
+
+---
+
+## Tests
+
+Run tests with npm test command
+
+```console
+npm run test
+```
 
 ---
 
