@@ -65,69 +65,6 @@ export default [
   {
     input: {
       bytes: 0,
-      decimals: 1
-    },
-    output: "0 Byte"
-  },
-  {
-    input: {
-      bytes: 1024,
-      decimals: 1
-    },
-    output: "1.0 KB"
-  },
-  {
-    input: {
-      bytes: 1024000,
-      decimals: 1
-    },
-    output: "1.0 MB"
-  },
-  {
-    input: {
-      bytes: 1024000000,
-      decimals: 1
-    },
-    output: "1.0 GB"
-  },
-  {
-    input: {
-      bytes: 1024000000000,
-      decimals: 1
-    },
-    output: "1.0 TB"
-  },
-  {
-    input: {
-      bytes: 1024000000000000,
-      decimals: 1
-    },
-    output: "1.0 PB"
-  },
-  {
-    input: {
-      bytes: 1024000000000000000,
-      decimals: 1
-    },
-    output: "1.0 EB"
-  },
-  {
-    input: {
-      bytes: 1.024e+21,
-      decimals: 1
-    },
-    output: "1.0 ZB"
-  },
-  {
-    input: {
-      bytes: 1.024e+24,
-      decimals: 1
-    },
-    output: "1.0 YB"
-  },
-  {
-    input: {
-      bytes: 0,
       decimals: 2
     },
     output: "0 Byte"
