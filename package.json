@@ -1,6 +1,6 @@
 {
   "name": "@erniamor/formater",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Some JavaScript utils functions to format data using TypeScript.",
   "exports": {
     ".": {

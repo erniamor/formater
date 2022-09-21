@@ -30,25 +30,30 @@ import { formatBytes } from '@erniamor/formater';
 formatBytes(1024000, 2); // return "1.02 MB"
 ```
 
-### API
+## API
 
 It's easy to use Formater APIs to format some special usecase.
 
-#### formatBytes
+### formatBytes
 
 Format a number of bytes to a string with unit and decimals.
 
-***Arguments***
+**Arguments**
+
 bytes (number) : the number to process
 decimals (number) : the number of decimals - default : 0
 
-***Return***
+**Return**
+
 (string) : the formated value
 
-***Exemple***
+**Exemple**
+
 ```javascript
 formatBytes(1024000, 2); // return "1.02 MB"
 ```
+
+**Notes**
 
 All this units are available : 'Byte', 'Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'
 
