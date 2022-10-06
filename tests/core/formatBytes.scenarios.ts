@@ -124,5 +124,12 @@ export default [
       decimals: 2
     },
     output: "1.02 YB"
-  }
+  },
+  {
+    input: {
+      bytes: 1024,
+      decimals: -1
+    },
+    output: "1.02 KB"
+  },
 ];

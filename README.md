@@ -5,6 +5,8 @@
 * 💪 Immutable
 * 📦 No dependancies
 * 👫 All browsers supported
+* ✅ Fully tested
+* 😎 100% covered
 
 ---
 
@@ -63,11 +65,25 @@ All this units are available : 'Byte', 'Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'E
 
 ## Tests
 
-Run tests with npm test command
+- Run tests with npm test command
 
 ```console
 npm run test
 ```
+
+- Run covered tests with npm test-coverage command
+
+```console
+npm run test-coverage
+```
+
+- Open coverage HTML report
+
+```console
+npx http-server ./coverage
+```
+
+And open your browser at http://127.0.0.1:8080
 
 ---
 
